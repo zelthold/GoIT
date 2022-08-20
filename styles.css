@@ -1,0 +1,56 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #f5f7fa;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-content {
+    background-color: #fff;
+}
+
+.about {
+
+}
+
+.projects {
+    margin-top: 100px;
+    margin-bottom: 300px;
+    margin-left: 60px;
+    margin-right: 90px;
+
+    /* margin: 100px 300px 60px 90px; = аналог записи margine-top margine-bottom margine-left margine-right
+    margin: 50px; = когда у всех 4 сторон одиннаковые поля
+    margin: 100px 50px; = верх и низ по 100px, право и лево по 50px 
+    margine = отступы между блоками*/
+}
+
+.project-title {
+
+}
+
+.work {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 40px;
+
+    /*
+    padding: 100px 50px 20px 40px; = top bottom left right
+    padding: 50px; = когда у всех 4 сторон одиннаковые поля
+    padding: 50px 100px;  = верх и низ по 50px, право и лево по 100px 
+    padding = отступы внутри блока*/
+}
+
+.education {
+
+}
+
+.sidebar {
+    background-color: #1e2939;
+}
